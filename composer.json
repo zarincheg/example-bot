@@ -1,0 +1,23 @@
+{
+  "name": "zarincheg/example-bot",
+  "description": "The example of the Telegram bot to demonstrate dialogs in action.",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "version": "0.0.1-dev",
+  "authors": [
+    {
+      "name": "Kirill Zorin",
+      "email": "zarincheg@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "josegonzalez/dotenv": ">=3.0.0",
+    "zarincheg/telegram-bot-dialogs": ">=0.2@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "ExampleDialogs\\": "dialogs/"
+    }
+  }
+}
