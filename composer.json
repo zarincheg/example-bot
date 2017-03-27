@@ -13,7 +13,7 @@
   "require": {
     "php": ">=5.6",
     "josegonzalez/dotenv": ">=3.0.0",
-    "zarincheg/telegram-bot-dialogs": ">=0.2@dev"
+    "zarincheg/telegram-bot-dialogs": "dev-master"
   },
   "autoload": {
     "psr-4": {
